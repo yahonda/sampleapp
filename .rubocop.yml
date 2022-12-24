@@ -5,3 +5,8 @@ AllCops:
 
 Rails/UnknownEnv:
   Enabled: true
+  Environments:
+    - production
+    - development
+    - test
+    - local
